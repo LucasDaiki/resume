@@ -20,10 +20,19 @@ h2.title {
 	font-size: 1.6rem;
 }
 
-.header.--about-me {
-    text-align: center;	
-    text-align: -webkit-center;
+.description__employer {
+	display: inline-block;
+	font-weight: 800;
 }
+
+.description__position {
+	display: inline-block;
+    text-transform: uppercase;
+	margin-left: 2rem;
+    font-size: 10px;
+    letter-spacing: .2rem;
+}
+
 
 .description {
 	font-family: 'Roboto Slab', sans-serif;
@@ -38,6 +47,19 @@ h2.title {
 .section .description {
 	padding-bottom: 2rem;
 	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.technology__name {
+	font-weight: 800;
+}
+
+.technologies__item {
+	font-size: 12px;
+}
+
+.header.--about-me {
+    text-align: center;	
+    text-align: -webkit-center;
 }
 
 @media (min-width: 1200px) {
