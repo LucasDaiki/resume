@@ -1,0 +1,70 @@
+.content {
+	background-color: rgba(0,0,0,0.04);
+	position: relative;
+	height: 100%;
+	display: flex;
+	flex-flow: column;
+}
+
+.title {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1.title {
+	font-weight: 800;
+	font-size: 2rem;
+}
+
+h2.title {
+	font-weight: 800;
+	font-size: 1.6rem;
+}
+
+.header.--about-me {
+    text-align: center;	
+    text-align: -webkit-center;
+}
+
+.description {
+	font-family: 'Roboto Slab', sans-serif;
+	line-height: 2rem;
+	display: block;
+} 
+
+.section {
+	margin-top: 3rem;
+}
+
+.section .description {
+	padding-bottom: 2rem;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+@media (min-width: 1200px) {
+    .content {
+    	padding: 4rem 8rem 4rem 8rem;	
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.content {
+    	padding: 4rem 6rem 4rem 6rem;	
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.content {
+    	padding: 4rem 4rem 4rem 4rem;	
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+	.content {
+    	padding: 4rem 2rem 4rem 2rem;
+    }	
+}
+
+@media (max-width: 575px) {
+	.content {
+	}
+}
