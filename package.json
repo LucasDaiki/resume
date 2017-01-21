@@ -1,5 +1,5 @@
 {
-  "name": "resume-me",
+  "name": "resume",
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
@@ -9,6 +9,5 @@
   "author": "Lucas Daiki",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^3.3.7"
   }
 }
