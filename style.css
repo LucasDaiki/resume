@@ -39,6 +39,16 @@ h2.title {
 	display: block;
 } 
 
+.description.--free-courses{
+	display: flex;
+	flex-flow: column;
+}
+
+.free-course__row {
+	display: flex;
+	justify-content: space-between;
+}
+
 .section {
 	margin-top: 3rem;
 }
@@ -70,8 +80,15 @@ h2.title {
 	width: 10rem;
 }
 
-.experience__item {
+.experience__item, .free-course__item {
 	margin-bottom: 3rem;
+}
+
+
+.free-course__item .description__secondary,
+.education__item .description__secondary {
+	margin-left: 0;
+	display: block;
 }
 
 @media (min-width: 1200px) {
