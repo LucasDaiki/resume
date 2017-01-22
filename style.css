@@ -20,19 +20,18 @@ h2.title {
 	font-size: 1.6rem;
 }
 
-.description__employer {
+.description__primary {
 	display: inline-block;
 	font-weight: 800;
 }
 
-.description__position {
+.description__secondary {
 	display: inline-block;
     text-transform: uppercase;
 	margin-left: 2rem;
     font-size: 10px;
     letter-spacing: .2rem;
 }
-
 
 .description {
 	font-family: 'Roboto Slab', sans-serif;
@@ -53,6 +52,10 @@ h2.title {
 	font-weight: 800;
 }
 
+.technologies__list {
+	/*display: none;*/
+}
+
 .technologies__item {
 	font-size: 12px;
 }
@@ -60,6 +63,15 @@ h2.title {
 .header.--about-me {
     text-align: center;	
     text-align: -webkit-center;
+}
+
+.picture {
+	border-radius: 50%;
+	width: 10rem;
+}
+
+.experience__item {
+	margin-bottom: 3rem;
 }
 
 @media (min-width: 1200px) {
