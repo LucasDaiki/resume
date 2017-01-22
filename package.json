@@ -4,10 +4,13 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify-css": "cleancss -o style.min.css style.css"
   },
   "author": "Lucas Daiki",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "clean-css": "^3.4.24"
   }
 }
