@@ -23,12 +23,12 @@ h2.title {
 .description__primary {
 	display: inline-block;
 	font-weight: 800;
+	margin-right: 2rem;
 }
 
 .description__secondary {
 	display: inline-block;
     text-transform: uppercase;
-	margin-left: 2rem;
     font-size: 10px;
     letter-spacing: .2rem;
 }
