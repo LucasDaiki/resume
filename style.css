@@ -1,7 +1,5 @@
 .content {
 	background-color: rgba(0,0,0,0.04);
-	position: relative;
-	height: 100%;
 	display: flex;
 	flex-flow: column;
 }
@@ -71,8 +69,12 @@ h2.title {
 }
 
 .header.--about-me {
-    text-align: center;	
-    text-align: -webkit-center;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;	
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
 }
 
 .picture {
@@ -83,7 +85,6 @@ h2.title {
 .experience__item, .free-course__item {
 	margin-bottom: 3rem;
 }
-
 
 .free-course__item .description__secondary,
 .education__item .description__secondary {
