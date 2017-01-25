@@ -7,8 +7,10 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-
+    
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
     <script src="script.js"></script>
 </head>
 
@@ -16,14 +18,21 @@
     <div class="content">
         <section class="section__about-me">
             <h1 class="section__about-me__title title">Hello, world!</h1>
-            <img src="daiki-300x300.jpg" class="picture" alt="picture of Lucas Daiki" longdesc="Lucas Daiki smiling using a black hat and glasses" />
+            <img src="img/daiki-300x300.jpg" class="picture" alt="picture of Lucas Daiki" longdesc="Lucas Daiki smiling using a black hat and glasses" />
             <h2>My name is Lucas Daiki</h2>
             <span class="description --city">São Paulo - SP / Brazil</span>
             <span class="description --email">lucas.daiki1983@gmail.com</span>
+            <div class="social-media__links">
+                <a href="https://github.com/lucasdaiki" class="social-media__link --github">
+                    <i class="fa fa-github social-media__icon" aria-hidden="true"></i>
+                </a>
+                <a href="https://linkedin.com/in/lucasdaiki" class="social-media__link --linkedin">
+                    <i class="fa fa-linkedin social-media__icon" aria-hidden="true"></i>
+                </a>
+            </div>
         </section>
 
         <div class="container historic">
-            
             <section class="section --profile row">
                 <div class="col-xs-12 col-lg-3">
                     <h2 class="title --profile">Summary</h2>
@@ -177,7 +186,7 @@
 
                         <div class="free-course__item col-lg-6 col-md-12">
                             <span class="description__primary">Web Design and Grafic Editor</span>    
-                            <span class="description__secondary">Impacta | August 2010 - January 2011</span>
+                            <span class="description__secondary">E.C. Camargo Aranha | August 2010 - January 2011</span>
                             <p class="description__resume">A course of 40 hours about Web Development <span class="technology__name">HTML, CSS and Javascript</span>.</p>
                             <p class="description__resume">And 40 hours about Grafic Editor <span class="technology__name">Photoshop, Corel Draw and Flash</span>.</p>
                         </div>
@@ -191,8 +200,45 @@
                 </div>
                 <div class="col-xs-12 col-lg-9">
                     <ul class="technical-skills">
-                        <li class="technical-skill">Javascript</li>
-                        <li class="technical-skill">.NET</li>
+                        <li class="technical-skill">Javascript / ES6  
+                            <span class="technical-skill__level">(8/10)</span>
+                        </li>
+                        <li class="technical-skill">HTML5  
+                            <span class="technical-skill__level">(8/10)</span>
+                        </li>
+                        <li class="technical-skill">React / Redux  
+                            <span class="technical-skill__level">(08/10)</span>
+                        </li>
+                        <li class="technical-skill">Angular 1.x  
+                            <span class="technical-skill__level">(07/10)</span>
+                        </li>
+                        <li class="technical-skill">CSS3 / SASS / LESS  
+                            <span class="technical-skill__level">(08/10)</span>
+                        </li>
+                        <li class="technical-skill">NodeJS  
+                            <span class="technical-skill__level">(07/10)</span>
+                        </li>
+                        <li class="technical-skill">C#  
+                            <span class="technical-skill__level">(08/10)</span>
+                        </li>
+                        <li class="technical-skill">ElasticSearch  
+                            <span class="technical-skill__level">(05/10)</span>
+                        </li>
+                        <li class="technical-skill">Rest API  
+                            <span class="technical-skill__level">(08/10)</span>
+                        </li>
+                        <li class="technical-skill">MySQL / SQL Server  
+                            <span class="technical-skill__level">(08/10)</span>
+                        </li>
+                        <li class="technical-skill">Tests: Unit, TDD, BDD  
+                            <span class="technical-skill__level">(08/10)</span>
+                        </li>
+                        <li class="technical-skill">Design Patterns
+                            <span class="technical-skill__level">(08/10)</span>
+                        </li>
+                        <li class="technical-skill">Git  
+                            <span class="technical-skill__level">(09/10)</span>
+                        </li>
                     </ul>
                 </div>
             </section>
@@ -201,20 +247,20 @@
                 <div class="col-xs-12 col-lg-3">
                     <h2 class="title --profile">Languages</h2>
                 </div>
-                <div class="col-xs-12 col-lg-9"></div>
-            </section>
-            
-
-            <section class="section --profile row">
-                <div class="col-xs-12 col-lg-3">
-                    <h2 class="title --profile">Soft Skills</h2>
+                <div class="col-xs-12 col-lg-9">
+                    <ul class="languages">
+                        <li class="language">Portuguese
+                            <span class="language__level">Native</span>
+                        </li>
+                        <li class="language">English
+                            <span class="language__level">Intermediate (Studying)</span>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-xs-12 col-lg-9"></div>
             </section>
 
         </div>
         <footer class="footer">
-            FOOTER
             <span class="footer__item --contacts">Contacts</span>
         </footer>
     </div>

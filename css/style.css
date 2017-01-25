@@ -92,6 +92,44 @@ h2.title {
 	display: block;
 }
 
+.technical-skill{
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+.technical-skill__level,
+.language__level {
+	margin-left: 1rem;
+	font-size: 10px;
+    letter-spacing: .2rem;
+}
+
+.technical-skill__level:before,
+.language__level:before {
+	content: ' | ';
+	margin-right: 1rem;
+}
+
+.social-media__links {
+	margin-top: .5rem;
+}
+
+.social-media__link:hover {
+	text-decoration: none;
+}
+
+.social-media__link:not(:first-child) {
+	margin-left: 1rem;
+}
+
+.social-media__icon {
+	font-size: 24px;
+	color: rgba(0, 0, 0, .5);
+}
+
+.social-media__icon:hover {
+	color: #000;
+}
+
 @media (min-width: 1200px) {
     .content {
     	padding: 4rem 8rem 4rem 8rem;	
