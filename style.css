@@ -68,7 +68,7 @@ h2.title {
 	font-size: 12px;
 }
 
-.header.--about-me {
+.section__about-me {
     width: 100%;
     margin: 0 auto;
     display: flex;	
